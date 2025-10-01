@@ -1,4 +1,4 @@
-🎮 Tic Tac Toe Game
+# 🎮 Tic Tac Toe Game
 
 A simple yet engaging Tic Tac Toe game built with Python. This project allows two players to enjoy the classic game on the same computer, along with an option to play against the computer (AI opponent). The design features a dark theme with attractive visuals, sound controls, and smooth gameplay effects.
 
@@ -34,21 +34,66 @@ GUI: Tkinter (Python’s standard GUI library)
 
 📌 How to Run
 
-Clone this repository:
+# 🛠 Steps to Run in VS Code
 
-git clone https://github.com/your-username/tic-tac-toe.git
+Install Python
+
+Download & install Python 3.x from python.org
+.
+
+During installation, check “Add Python to PATH”.
+
+Install VS Code
+
+Download from code.visualstudio.com
+.
+
+Install Python extension in VS Code.
+
+Extract the Project
+
+Unzip TicTacToe.zip.
+
+You’ll see a folder TicTacToe/ with:
+
+tic_tac_toe.py (main code file)
+
+background.mp3 (sound file)
+
+Open in VS Code
+
+Open the TicTacToe folder in VS Code.
+
+Open tic_tac_toe.py.
+
+Create Virtual Environment (Optional but Recommended)
+
+python -m venv venv
+source venv/bin/activate   # Mac/Linux
+venv\Scripts\activate      # Windows
 
 
-Navigate into the project folder:
+Install Required Libraries
+From typical Tic Tac Toe GUI games with background music, the code usually needs:
 
-cd tic-tac-toe
+pip install pygame
+
+
+(If tkinter is used, it comes pre-installed with Python on most systems.)
+pip install tk
+
+
+Run the Game
+
+python tic_tac_toe.py
+
 
 
 Run the main script:
 
 python main.py
 
-🎯 Future Improvements
+# 🎯 Future Improvements
 
 Add online multiplayer mode 🌍
 
