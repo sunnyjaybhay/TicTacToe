@@ -34,7 +34,7 @@ GUI: Tkinter (Python’s standard GUI library)
 
 📌 How to Run
 
-# 🛠 Steps to Run in VS Code
+## 🛠 Steps to Run in VS Code
 
 Install Python
 
@@ -80,6 +80,7 @@ pip install pygame
 
 
 (If tkinter is used, it comes pre-installed with Python on most systems.)
+
 pip install tk
 
 
